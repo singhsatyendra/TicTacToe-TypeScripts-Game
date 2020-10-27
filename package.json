@@ -1,0 +1,20 @@
+{
+  "name": "tictactoe",
+  "version": "0.1.0",
+  "description": "Tic Tac Toe in TypeScript.",
+  "author": {
+    "name": "Satyendra singh",
+    "email": "itsatyendra4@gmail.com", 
+    },
+  "main": "dist/tictactoe.js",
+  "scripts": {
+    "build": "tsc",
+    "watch": "tsc -w"
+  },
+  "license": "MIT",
+  "private": false,
+  "devDependencies": {
+    "@types/node": "^11.13.8",
+    "typescript": "^3.4.5"
+  }
+}
